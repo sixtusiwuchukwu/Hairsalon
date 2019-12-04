@@ -1,0 +1,23 @@
+#About_us {
+  background-color: rgba(241, 239, 239, 0.89);
+  width: 100%;
+}
+#About_us h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  color: rgb(10, 56, 51);
+}
+.About_hold {
+  display: flex;
+  justify-content: space-around;
+}
+.details {
+  width: 400px;
+  word-break: break-all;
+}
+.About_hold img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+#contact_us {
+  width: 100%;
+  height: 300px;
+}
+#contact_us h1 {
+  text-align: center;
+  padding: 5px;
+  color: rgb(11, 61, 56);
+}
+fieldset {
+  background-color: rgba(0, 0, 0, 0.479);
+  border: none;
+  padding-top: 20px;
+}
+
+.line2 {
+  display: flex;
+  justify-content: space-around;
+}
+.line2-contain input {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.line2-contain textarea {
+  width: 400px;
+  height: 120px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.line2-contain textarea::placeholder {
+  text-align: center;
+  color: rgb(23, 83, 77);
+  font-size: 20px;
+}
+.line2-contain input::placeholder {
+  text-align: center;
+  color: rgb(23, 83, 77);
+  font-size: 20px;
+}
+.line2-contain form input,
+textarea {
+  margin-bottom: 30px;
+}
+.line2-contain button {
+  width: 400px;
+  height: 40px;
+  background-color: teal;
+  color: white;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+}

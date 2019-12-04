@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.holder {
+  background-image: url("../images/A1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  animation-name: slide;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+/* .holder:hover {
+  animation-play-state: paused;
+} */
+.hold {
+  display: flex;
+  width: 100%;
+  height: 670px;
+  background-color: rgba(0, 0, 0, 0.329);
+  padding-top: 30px;
+}
+.hold ul {
+  display: flex;
+  padding-right: 40px;
+}
+.hold ul li {
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  color: rgba(218, 165, 32, 0.568);
+  font-size: 20px;
+}
+.hold ul a {
+  text-decoration: none;
+}
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgb(212, 170, 170);
+  font-size: 25px;
+}
+.hold ul li:hover {
+  border-bottom: 2px solid brown;
+  transition-property: unset;
+  transition: 0.4s;
+}
+.contain {
+  width: 100%;
+  display: flex;
+  height: 30px;
+}
+.explore {
+  position: absolute;
+  bottom: 190px;
+  left: 750px;
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: rgba(218, 165, 32, 0.568);
+  font-size: 30px;
+}
+.explore a {
+  text-decoration: none;
+}
+.explore:hover {
+  background-color: rgba(218, 165, 32, 0.568);
+  color: rgb(9, 59, 54);
+}
+.description {
+  position: absolute;
+  bottom: 270px;
+  left: 750px;
+  width: 340px;
+  color: gray;
+  font-size: 30px;
+  word-break: break-all;
+}
+.description h2 {
+  color: rgba(218, 165, 32, 0.568);
+}
+
+@keyframes slide {
+  0% {
+    background-image: url("../images/A1.png");
+  }
+  70% {
+    background-image: url("../images/A2.png");
+  }
+}
